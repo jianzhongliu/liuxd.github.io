@@ -1,0 +1,7 @@
+#!/bin/bash
+v='.virtualenv'
+
+virtualenv $v
+source $v/bin/activate
+
+python setup.py install

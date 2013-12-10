@@ -1,0 +1,45 @@
++ watch 监控命令输出内容。
+    + eg: watch 'ps -ef|grep php'
++ wc 计算输出的行数或字符数等。
+    + eg: cat test.txt|wc -l
++ curl 发http请求。
+    + eg: curl "http://baidu.com" -H "Host: baidu.com"
+    + eg: curl -I http://google.com    只获得头信息。
++ rsync 文件同步。
+    + eg: rsync -av --delete-before /home/www/release/ -e ssh evans@app10-099:/home/www/release/
+    + eg: rsync -av --delete-before foler1/ folder2/ #注意：后面的斜杠很重要，如果没有则在folder2中建立folder1文件夹。
++ dd 转换并复制文件。
++ script 记录终端会话的内容。
++ tee 从标准输出读取并写入到文件内。
++ w 显示当前登录用户的行为。
++ zcat 可以察看gz压缩文件的内容。
+    + eg: zcat test.gz
++ seq 获得等差数列。
+    + eg: seq 2 20
++ renice 修改进程优先级。
+    + eg: renice -n 2 -p 3432。-n，后面是优先级的值；-p，是进程号。
++ tree 现实目录结构。
+    + eg: tree -N $path 正确显示中文。
++ httpd -S 察看apache使用的配置文件路径
++ bc 计算器。
++ du 计算每个文件的磁盘用量，目录则取总量。
+    + eg: du -sh ＊    获得目录下所有文件／文件夹的容量。
++ df 显示文件系统的信息。
+    + eg: df -h
++ find 文件搜索。
+    + eg: find ./mexec/ -name "*.php" |xargs cat|grep -v ^$|wc -l 统计php文件的代码行数，不包括空行。
+    + eg: find . -type d -name ".svn"|xargs rm -rf  删除".svn"文件夹。
+    + eg: find . -maxdepth 1 -name 'error.log*' -print0|xargs -0 sudo rm 批量删除当前目录的文件。 
++ realpath 获得文件的完整路径。
+    + eg: realpath test.php
++ sed 文本替换
+    + eg: sed -e 's/foo/bar/' myfile.txt 将myfile.txt中的foo都改成bar。
++ wget 下载
+    + eg: wget -U "Mozilla/4.0 \(compatible; MSIE 7.0; Windows NT 5.1; GTB5\)" -r -p -k -nc -o down.log http://www.nintendo.co.jp/fe/fe_museum/ 整站下载
+    + eg: wget http://members.3322.org/dyndns/getip 获得本地的外网IP。
++ nl 带行号的cat
+    + eg: nl -b a text.txt 带行号的显示文件内容。
++ last 显示用户登录历史
++ whoami 显示当前用户。
++ chsh 修改默认shell。
+    + eg: chsh -s /bin/zsh

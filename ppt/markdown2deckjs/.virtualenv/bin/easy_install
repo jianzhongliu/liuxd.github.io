@@ -1,4 +1,4 @@
-#!/Users/liuxd/Documents/git.corp.anjuke.com/m2d/markdown2deckjs/.virtualenv/bin/python
+#!/Users/liuxd/Documents/github.com/liuxd.github.io/ppt/markdown2deckjs/.virtualenv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==0.6c11','console_scripts','easy_install'
 __requires__ = 'setuptools==0.6c11'
 import sys

@@ -1,4 +1,4 @@
-#!/Users/liuxd/Documents/git.corp.anjuke.com/m2d/markdown2deckjs/.virtualenv/bin/python
+#!/Users/liuxd/Documents/github.com/liuxd.github.io/ppt/markdown2deckjs/.virtualenv/bin/python
 # EASY-INSTALL-SCRIPT: 'Markdown==2.3.1','markdown_py'
 __requires__ = 'Markdown==2.3.1'
 import pkg_resources

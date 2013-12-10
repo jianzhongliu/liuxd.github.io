@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/liuxd/Documents/git.corp.anjuke.com/m2d/markdown2deckjs/.virtualenv"
+set -gx VIRTUAL_ENV "/Users/liuxd/Documents/github.com/liuxd.github.io/ppt/markdown2deckjs/.virtualenv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

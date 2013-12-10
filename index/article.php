@@ -6,6 +6,6 @@ $files = glob($path . '*.html');
 
 foreach ($files as $file) {
     $pathinfo = pathinfo($file);
-    $url = 'http://liuxd.github.io/article/html/'.$pathinfo['filename'];
-    echo '<h4><a href"' , $url , '">', $pathinfo['filename'] , '</a></h4>', PHP_EOL;
+    $url = 'http://liuxd.github.io/article/html/'.$pathinfo['filename'].'.html';
+    echo '<h4><a href="' , $url , '" target="_blank">', $pathinfo['filename'] , '</a></h4>', PHP_EOL;
 }

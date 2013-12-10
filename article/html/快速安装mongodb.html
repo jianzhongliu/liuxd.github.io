@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<xmp theme="united" style="display:none;">
+1,下载：   http://www.mongodb.org/ mongodb-linux-x86_64-2.2.0.tgz 
+2,解压：tar zxvf mongodb-linux-x86_64-2.2.0.tgz 
+3,设置数据目录,日志文件：
+
+mkdir -p /data/mongodb/db
+
+cd /data/mongodb/
+
+touch log
+
+4,启动服务：
+
+./mongod --dbpath=/data/mongodb/db --port 27017 --logpath /data/mongodb/log --logappend --fork
+
+5,测试：
+
+./mongo
+
+</xmp>
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4e7b6001ec3473e0c62039e964114667' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</html>

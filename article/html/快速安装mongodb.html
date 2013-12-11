@@ -2,23 +2,27 @@
 <html>
 <meta charset="UTF-8">
 <xmp theme="united" style="display:none;">
-1,下载：   http://www.mongodb.org/ mongodb-linux-x86_64-2.2.0.tgz 
-2,解压：tar zxvf mongodb-linux-x86_64-2.2.0.tgz 
-3,设置数据目录,日志文件：
+1. 下载：
 
-mkdir -p /data/mongodb/db
+    http://www.mongodb.org/ mongodb-linux-x86_64-2.2.0.tgz 
 
-cd /data/mongodb/
+2. 解压：
 
-touch log
+    tar zxvf mongodb-linux-x86_64-2.2.0.tgz 
 
-4,启动服务：
+3. 设置数据目录,日志文件：
 
-./mongod --dbpath=/data/mongodb/db --port 27017 --logpath /data/mongodb/log --logappend --fork
+    mkdir -p /data/mongodb/db
+    cd /data/mongodb/
+    touch log
 
-5,测试：
+4. 启动服务：
 
-./mongo
+    ./mongod --dbpath=/data/mongodb/db --port 27017 --logpath /data/mongodb/log --logappend --fork
+
+5. 测试：
+
+    ./mongo
 
 </xmp>
 <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>

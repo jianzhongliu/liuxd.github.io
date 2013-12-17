@@ -26,9 +26,22 @@ function get_articles () {
     return $ret;
 }
 
-print_r(get_articles());
+//get ppts
+function get_ppts(){
+    $path = __DIR__ . '/../ppt/';
+    $md_files = glob($path . 'md/*.md');
+    $ret = '';
 
-//@todo get ppts
+    foreach ($md_files as $md_file) {
+        $fileinfo = pathinfo($md_file);
+        $cli = './build_ppt.sh '.$fileinfo['filename'];
+        `$cli`;
+        $url = 'http://liuxd.github.io/ppt/deck.js/ppt/'.$fileinfo['filename'].'.html';
+        $ret .= '<h4><a href="' . $url . '" target="_blank">' . $fileinfo['filename'] . '</a></h4>' . PHP_EOL;
+    }
+
+    return $ret;
+}
 
 //@todo get tpl
 

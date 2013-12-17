@@ -34,7 +34,7 @@ function get_ppts(){
 
     foreach ($md_files as $md_file) {
         $fileinfo = pathinfo($md_file);
-        $cli = './build_ppt.sh '.$fileinfo['filename'];
+        $cli = __DIR__ . '/build_ppt.sh '.$fileinfo['filename'];
         `$cli`;
         $url = 'http://liuxd.github.io/ppt/deck.js/ppt/'.$fileinfo['filename'].'.html';
         $ret .= '<h4><a href="' . $url . '" target="_blank">' . $fileinfo['filename'] . '</a></h4>' . PHP_EOL;
@@ -43,6 +43,11 @@ function get_ppts(){
     return $ret;
 }
 
-//@todo get tpl
+chdir(__DIR__);
+$tpl = file_get_contents(__DIR__ . '/index.tpl');
+$articles = get_articles();
+$ppts = get_ppts();
+$tmp = str_replace('{$articles}', $articles, $tpl);
+$html = str_replace('{$ppts}', $ppts, $tmp);
 
-//@todo fresh index.html
+file_put_contents(__DIR__ . '/../index.html', $html);

@@ -14,7 +14,6 @@
 + [QQ](http://im.qq.com/macqq/)
 + [Xcode](https://developer.apple.com/xcode/)
 + [百度Mac输入法](http://shouji.baidu.com/input/mac.html)
-+ [bitcoin](http://bitcoin.org/zh_CN/download)
 
 ### Web版工具
 + [Adminer](http://www.adminer.org/)
@@ -24,10 +23,7 @@
 + [homebrew](http://brew.sh/)
 + [easy_install](http://pythonhosted.org/distribute/easy_install.html)
 + [pip](https://pypi.python.org/pypi/pip)
-+ [git-config](https://github.com/liuxd/git-config/releases)
-+ [vim-config](https://github.com/liuxd/vim-config/releases)
 + [mm](https://github.com/liuxd/miao-miao/releases)
-+ [dk](https://github.com/liuxd/daemon-keeper/releases)
 + [phpbrew](https://github.com/c9s/phpbrew)
 + [gitcrypt](https://github.com/liuxd/git-encrypt)
 + [phpsh](https://github.com/liuxd/phpsh)
@@ -37,6 +33,7 @@
 + tree
 + htop
 + multitail
++ watch
 
 ### 服务
 + [nginx](http://nginx.org/en/download.html)

@@ -34,6 +34,7 @@
 + htop
 + multitail
 + watch
++ fdupes
 
 ### 服务
 + [nginx](http://nginx.org/en/download.html)

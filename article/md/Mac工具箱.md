@@ -35,6 +35,8 @@
 + multitail
 + watch
 + fdupes
++ cmatrix
++ cowsay
 
 ### 服务
 + [nginx](http://nginx.org/en/download.html)

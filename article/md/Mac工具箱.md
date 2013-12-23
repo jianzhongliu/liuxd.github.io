@@ -37,6 +37,8 @@
 + fdupes
 + cmatrix
 + cowsay
++ sl
+
 
 ### 服务
 + [nginx](http://nginx.org/en/download.html)

@@ -14,6 +14,7 @@
 + [QQ](http://im.qq.com/macqq/)
 + [Xcode](https://developer.apple.com/xcode/)
 + [百度Mac输入法](http://shouji.baidu.com/input/mac.html)
++ [Sequel Pro](http://www.sequelpro.com/download)
 
 ### Web版工具
 + [Adminer](http://www.adminer.org/)

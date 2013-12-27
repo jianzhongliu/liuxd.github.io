@@ -34,6 +34,7 @@
     + eg: find ./mexec/ -name "*.php" |xargs cat|grep -v ^$|wc -l 统计php文件的代码行数，不包括空行。
     + eg: find . -type d -name ".svn"|xargs rm -rf  删除".svn"文件夹。
     + eg: find . -maxdepth 1 -name 'error.log*' -print0|xargs -0 sudo rm 批量删除当前目录的文件。 
+    + eg: find /home -size +2000k 找出/home文件夹下大于200M的文件。
 + realpath 获得文件的完整路径。
     + eg: realpath test.php
 + sed 文本替换

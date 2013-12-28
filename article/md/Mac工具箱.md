@@ -16,10 +16,6 @@
 + [百度Mac输入法](http://shouji.baidu.com/input/mac.html)
 + [Sequel Pro](http://www.sequelpro.com/download)
 
-### Web版工具
-+ [Adminer](http://www.adminer.org/)
-+ [Open Sesame](https://github.com/liuxd/open-sesame/releases)
-
 ### 命令行工具
 + [homebrew](http://brew.sh/)
 + [easy_install](http://pythonhosted.org/distribute/easy_install.html)

@@ -6,31 +6,49 @@
 
 ## Concepts Introduction
 + Object~
+	+ commit~
+	+ tree~
+	+ blob~
 + Reference~
-+ Stage~
+	+ head~
+	+ remote~
+	+ tag~
 
-## Git Flow
-+ master~
-+ branch~
-+ remote~
-+ submodule~
+## Flow
++ Work Space~
++ Index / Stage~
++ Repository~
++ Remote~
 
-## Common Command
+## Commands
 + add~
 + commit~
++ status~
 + pull~
 + push~
 + log~
 + diff~
 + vim~
 
+## rebase
++ fetch~
++ rebase~
+	+ continue~
+	+ skip~
+	+ abort~
++ push~
+
 ## Precautions
 + config~
 + .gitignore~
 + add --all~
++ daily rebase~
 
 ## Source
 + <http://pcottle.github.io/learnGitBranching/?demo>
 + <http://think-like-a-git.net/>
++ --help
 
-# Thanks!
+
+# Q & A
+# To be continued...

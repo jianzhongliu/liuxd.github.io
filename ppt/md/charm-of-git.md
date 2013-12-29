@@ -44,6 +44,13 @@
 + add --all~
 + daily rebase~
 
+## Advanced Feature
++ git stash
++ git bisect
++ git blame
++ submodule
++ ...
+
 ## Source
 + <http://pcottle.github.io/learnGitBranching/?demo>
 + <http://think-like-a-git.net/>

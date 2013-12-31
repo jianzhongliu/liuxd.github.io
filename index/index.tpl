@@ -25,7 +25,7 @@
           <li><a href="#">Contact</a></li>
         </ul>
       -->
-        <h3 class="text-muted">Liuxd's Blog</h3>
+        <h3 class="text-muted">我们制造玩具，有些玩具改变了世界。</h3>
       </div>
 
       <div class="row marketing">
